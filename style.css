@@ -12,6 +12,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+input.text{
+    background: silver;
+
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -21,7 +25,7 @@ body{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(images/bg.jpg);
+        url(images/flor1.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,6 +73,7 @@ body{
 
 .menu-icono{
     width: 25px;
+
 }
 
 .menu label{
@@ -109,7 +114,7 @@ body{
 /*Aqui termina el header, se pasa a la siguiente seccion*/
 .coffee {
     padding: 100px 0;
-    background-color: #e1e2e6;
+    background-color: #F7E1F5;
     position: relative;
 }
 
@@ -117,7 +122,7 @@ body{
     text-align: center;
 }
 
-.coffee-content h2 {
+.coffee-content h2 {/*este es de "los diferentes tipos de cafe"*/
     font-size: 55px;
     line-height: 70px;
     color: #323337;
@@ -126,7 +131,8 @@ body{
     margin-bottom: 15px;
 }
 
-.txt-p {
+.txt-p { /*este es la descripción que esta enseguida*/
+    position: absolute;
     font-size: 16px;
     color: #414247;
     padding: 0 250px;
@@ -137,6 +143,7 @@ body{
 .coffee-group {
     display: flex;
     justify-content: space-between;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 
@@ -145,26 +152,27 @@ body{
 }
 
 .coffee-1 img {
-    width: 200px;
+    height: 300px;
 }
 
 .coffee-img {
-    position: absolute;
+    position:absolute;
     top: 0;
     right: 0;
 }
 
-.coffee-1 h3 {
+.coffee-1 h3 { /*este es de los "cafe lorem"*/
     color: #323337;
     font-size: 20px;
     margin-bottom: 15px;
+
 }
 /*aqui termina la seccion, sigue servicios*/
 .services {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(images/bg3.jpg);
+        url(images/floreria.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +210,7 @@ body{
 }
 
 .services-1 img {
-    width: 25px;
+    width: 65px;
     margin-bottom: 15px;
 }
 
