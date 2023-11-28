@@ -16,6 +16,8 @@ input.text{
     background: silver;
 
 }
+
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -25,8 +27,8 @@ input.text{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(images/flor1.jpg);
-    background-position: center bottom;
+        url(images/carrosmarcas.jpg);
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
@@ -103,18 +105,18 @@ input.text{
 .btn-1{
     display: inline-block;
     padding: 11px 35px;
-    background-color: #ce967b;
+    background-color: rgb(20, 107, 193);
     color: #F9FAFC;
     text-transform: uppercase;
 }
 
 .btn-1:hover {
-    background-color: #ebad8d;
+    background-color: #4c5dce;
 }
 /*Aqui termina el header, se pasa a la siguiente seccion*/
 .coffee {
-    padding: 100px 0;
-    background-color: #F7E1F5;
+    padding: 100px;
+    background-color: #c9c6c9;
     position: relative;
 }
 
@@ -132,19 +134,18 @@ input.text{
 }
 
 .txt-p { /*este es la descripción que esta enseguida*/
-    position: absolute;
+    position: center;
     font-size: 16px;
     color: #414247;
-    padding: 0 250px;
+    padding: 0 300px;
     margin-bottom: 35px;
-
 }
 
 .coffee-group {
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .coffee-1 {
@@ -152,27 +153,29 @@ input.text{
 }
 
 .coffee-1 img {
-    height: 300px;
+    height:200px;
 }
 
 .coffee-img {
     position:absolute;
-    top: 0;
+    top: 80px;
     right: 0;
+    height:300px;
 }
 
 .coffee-1 h3 { /*este es de los "cafe lorem"*/
     color: #323337;
     font-size: 20px;
     margin-bottom: 15px;
-
+    
 }
+
 /*aqui termina la seccion, sigue servicios*/
 .services {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(images/floreria.jpg);
+        url(images/concesonario.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,7 +233,7 @@ input.text{
 }
 
 .general-2 {
-    background-image: url(images/coffe-1.jpg);
+    background-image: url(images/gardenia.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -284,13 +287,47 @@ p {
 }
 /*aqui empieza la de footer*/
 .footer{
-    padding: 100px 0;
+    padding: 30px 0;
     background-color: #000000;
 }
 
+
 .footer-content{
     display: flex;
+    justify-content: center;
+} 
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label{
+    color: #eaccb3;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: #F7E1F5;
+    border: 2px solid #f0faf1;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #707070;
+}
+
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .link h3{
